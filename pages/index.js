@@ -65,16 +65,16 @@ export default function Home() {
 					</div>
 					<div className={styles.configs}>
 						<div className={styles.stats}>
-							<p className={[styles.commonFields, styles.label]}>Total Points</p>
-							<p className={[styles.commonFields, styles.value]}>{totalPointsCount}</p>
+							<p className={`${styles.commonFields} ${styles.label}`}>Total Points</p>
+							<p className={`${styles.commonFields} ${styles.value}`}>{totalPointsCount}</p>
 						</div>
 						<div className={styles.stats}>
-							<p className={[styles.commonFields, styles.label]}>Circle Points</p>
-							<p className={[styles.commonFields, styles.value]}>{circlePointsCount}</p>
+							<p className={`${styles.commonFields} ${styles.label}`}>Circle Points</p>
+							<p className={`${styles.commonFields} ${styles.value}`}>{circlePointsCount}</p>
 						</div>
 						<div className={styles.stats}>
-							<p className={[styles.commonFields, styles.pilabel]}>pi</p>
-							<p className={[styles.commonFields, styles.pivalue]}>{totalPointsCount ? (4 * circlePointsCount / totalPointsCount).toFixed(15) : ""}</p>
+							<p className={`${styles.commonFields} ${styles.pilabel}`}>pi</p>
+							<p className={`${styles.commonFields} ${styles.pivalue}`}>{totalPointsCount ? (4 * circlePointsCount / totalPointsCount).toFixed(15) : ""}</p>
 						</div>
 						<div className={styles.buttons}>
 							<button onClick={startCounting}>Start</button>
