@@ -17,9 +17,8 @@ Mas este valor não é exato pois pi é um número irracional, ou seja, decimal,
 O que vamos fazer não é o cálculo exato mas sim uma aproximação e usaremos o método de Monte Carlo, que consiste em usar amostras aleatórias para resolver algum problema. Este método é muito utilizado em Machine Learning e se você gosta de IA e Machine Learning mas não conhece o Universo Programado você é um bobão.
 [https://www.youtube.com/c/UniversoProgramado](https://www.youtube.com/c/UniversoProgramado) 
 
-> Pense num circulo de raio r - *desenha o circulo -* agora pense que este circulo está dentro de um quadrado de lado 2r - *desenha o quadrado* - qual a probabilidade de um ponto aleatório de coordenadas (x,y) cair dentro do circulo?
+Pense num circulo de raio r agora pense que este circulo está dentro de um quadrado de lado 2r, qual a probabilidade de um ponto aleatório de coordenadas (x,y) cair dentro do circulo?
 Bom, é só pensar na área que eles ocupam: a probabilidade é igual à razão entre a área do círculo divida pela área total, que é a do quadrado. Ou seja:
-> 
 
 P([X,Y] ∈ circle) = πr^2/(2r)^2 = πr^2/4r^2 = π/4
 
